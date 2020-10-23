@@ -5,7 +5,7 @@
 
 const uint8_t RXPin = 4, TXPin = 3;
 const uint8_t TFT_CS = 10, TFT_DC = 8, TFT_RST = 9; 
-const uint8_t GPSBaud = 9600;
+const uint16_t GPSBaud = 9600;
 
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 TinyGPSPlus gps;
